@@ -1,0 +1,42 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Employee"
+        android:textSize="36dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/edit_text_id_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:textSize="26dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_name_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:textSize="26dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_email_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="26dp"/>
+
+    <Button
+        android:id="@+id/button_create_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
